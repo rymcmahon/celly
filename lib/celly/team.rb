@@ -28,7 +28,7 @@ class Celly::Team
         
       {status: response.code, message: response.message, data: json_response["dates"]}
     else
-      { status: response.code, message: response.message }
+      { status: response.code, message: response.message  }
     end
   end
 end
