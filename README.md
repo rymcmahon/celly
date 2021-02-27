@@ -1,3 +1,5 @@
+![kaner-celly](https://user-images.githubusercontent.com/8561395/109370647-2c9b2480-786f-11eb-8287-7b78d10bceae.gif)
+
 # Celly
 
 Celly is a Ruby wrapper for the NHL Stats API, a little-known, undocumented API maintained by the National Hockey League. Celly aims to provide an easy-to-use DSL for making requests to the NHL Stats API and retrieving data about Teams, Players, Schedules, and Standings.
