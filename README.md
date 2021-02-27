@@ -8,9 +8,7 @@ Celly is a Ruby wrapper for the NHL Stats API, a little-known, undocumented API 
 
 Add this line to your application's Gemfile:
 
-```bash
-gem 'celly'
-```
+    $ gem 'celly'
 
 And then execute:
 
