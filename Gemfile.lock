@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    celly (0.1.2)
+    celly (0.5.0)
 
 GEM
   remote: https://rubygems.org/
