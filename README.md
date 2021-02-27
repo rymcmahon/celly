@@ -1,4 +1,4 @@
-![kaner-celly](https://user-images.githubusercontent.com/8561395/109370647-2c9b2480-786f-11eb-8287-7b78d10bceae.gif)
+![kane-celly](https://user-images.githubusercontent.com/8561395/109370958-90721d00-7870-11eb-9ae5-ee0bd881fc3d.gif)
 
 # Celly
 
