@@ -94,8 +94,8 @@ standings.overall(season)                       # => season standings (season fo
 ```ruby
 schedule = Celly::Schedule.new
 
-standings.all(start_date, end_date)            # => overall season standings (date format: "2020-02-25")
-standings.team(start_date, end_date, team_id)  # => team's season standings (date format: "2020-02-25")
+schedule.all(start_date, end_date)             # => entire league schedule (date format: "2020-02-25")
+schedule.team(start_date, end_date, team_id)   # => team's schedule (date format: "2020-02-25")
 ```
 
 ## Development
