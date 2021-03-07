@@ -11,9 +11,9 @@ class Celly::Leaders
 
     if response.code == '200'
       json_response = JSON.parse(response.body)
-      {status: response.code, message: response.message, data: json_response["leagueLeaders"]}
+      { status: response.code, message: response.message, data: json_response['leagueLeaders'] }
     else
-      {status: response.code, message: response.message}
+      { status: response.code, message: response.message }
     end
   end
 
@@ -24,9 +24,9 @@ class Celly::Leaders
 
     if response.code == '200'
       json_response = JSON.parse(response.body)
-      {status: response.code, message: response.message, data: json_response["leagueLeaders"]}
+      { status: response.code, message: response.message, data: json_response['leagueLeaders'] }
     else
-      {status: response.code, message: response.message}
+      { status: response.code, message: response.message }
     end
   end
 
@@ -37,9 +37,9 @@ class Celly::Leaders
 
     if response.code == '200'
       json_response = JSON.parse(response.body)
-      {status: response.code, message: response.message, data: json_response["leagueLeaders"]}
+      { status: response.code, message: response.message, data: json_response['leagueLeaders'] }
     else
-      {status: response.code, message: response.message}
+      { status: response.code, message: response.message }
     end
   end
 
@@ -50,9 +50,9 @@ class Celly::Leaders
 
     if response.code == '200'
       json_response = JSON.parse(response.body)
-      {status: response.code, message: response.message, data: json_response["leagueLeaders"]}
+      { status: response.code, message: response.message, data: json_response['leagueLeaders'] }
     else
-      {status: response.code, message: response.message}
+      { status: response.code, message: response.message }
     end
 
   end
@@ -64,9 +64,9 @@ class Celly::Leaders
 
     if response.code == '200'
       json_response = JSON.parse(response.body)
-      {status: response.code, message: response.message, data: json_response["leagueLeaders"]}
+      { status: response.code, message: response.message, data: json_response['leagueLeaders'] }
     else
-      {status: response.code, message: response.message}
+      { status: response.code, message: response.message }
     end
   end
 end

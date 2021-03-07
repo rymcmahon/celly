@@ -11,8 +11,8 @@ class Celly::Standings
 
     if response.code == '200'
       json_response = JSON.parse(response.body)
-      
-      {status: response.code, message: response.message, data: json_response["records"]}
+
+      {status: response.code, message: response.message, data: json_response['records']}
     else
       {status: response.code, message: response.message}
     end

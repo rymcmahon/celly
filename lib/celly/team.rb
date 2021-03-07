@@ -5,16 +5,16 @@ class Celly::Team
   BASE_URL = 'https://statsapi.web.nhl.com/api/v1'
 
   def all
-    end_point = "/teams"
+    end_point = '/teams'
     uri = URI("#{BASE_URL}#{end_point}")
     response = Net::HTTP.get_response(uri)
 
     if response.code == '200'
       json_response = JSON.parse(response.body)
-      
-      {status: response.code, message: response.message, data: json_response["teams"] }
+
+      { status: response.code, message: response.message, data: json_response['teams'] }
     else
-      {status: response.code, message: response.message}
+      { status: response.code, message: response.message }
     end
   end
 
@@ -25,10 +25,10 @@ class Celly::Team
 
     if response.code == '200'
       json_response = JSON.parse(response.body)
-      
-      {status: response.code, message: response.message, data: json_response["roster"]}
+
+      { status: response.code, message: response.message, data: json_response['roster'] }
     else
-      {status: response.code, message: response.message}
+      { status: response.code, message: response.message }
     end
   end
 
@@ -39,10 +39,10 @@ class Celly::Team
 
     if response.code == '200'
       json_response = JSON.parse(response.body)
-      
-      {status: response.code, message: response.message, data: json_response["teams"]}
+
+      { status: response.code, message: response.message, data: json_response['teams'] }
     else
-      {status: response.code, message: response.message}
+      { status: response.code, message: response.message }
     end
   end
 
@@ -53,10 +53,10 @@ class Celly::Team
 
     if response.code == '200'
       json_response = JSON.parse(response.body)
-      
-      {status: response.code, message: response.message, data: json_response["stats"]}
+
+      { status: response.code, message: response.message, data: json_response['stats'] }
     else
-      {status: response.code, message: response.message}
+      { status: response.code, message: response.message }
     end
   end
 end
