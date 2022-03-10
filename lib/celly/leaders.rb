@@ -5,7 +5,7 @@ class Celly::Leaders
   BASE_URL = 'https://statsapi.web.nhl.com/api/v1'
 
   def goals(season)
-    end_point = "/stats/leaders?leaderCategories=goals&season#{season}"
+    end_point = "/stats/leaders?leaderCategories=goals&season=#{season}"
     uri = URI("#{BASE_URL}#{end_point}")
     response = Net::HTTP.get_response(uri)
 
@@ -18,7 +18,7 @@ class Celly::Leaders
   end
 
   def assists(season)
-    end_point = "/stats/leaders?leaderCategories=assists&season#{season}"
+    end_point = "/stats/leaders?leaderCategories=assists&season=#{season}"
     uri = URI("#{BASE_URL}#{end_point}")
     response = Net::HTTP.get_response(uri)
 
@@ -31,7 +31,7 @@ class Celly::Leaders
   end
 
   def points(season)
-    end_point = "/stats/leaders?leaderCategories=points&season#{season}"
+    end_point = "/stats/leaders?leaderCategories=points&season=#{season}"
     uri = URI("#{BASE_URL}#{end_point}")
     response = Net::HTTP.get_response(uri)
 
@@ -44,7 +44,7 @@ class Celly::Leaders
   end
 
   def shutouts(season)
-    end_point = "/stats/leaders?leaderCategories=shutouts&season#{season}"
+    end_point = "/stats/leaders?leaderCategories=shutouts&season=#{season}"
     uri = URI("#{BASE_URL}#{end_point}")
     response = Net::HTTP.get_response(uri)
 
@@ -58,7 +58,7 @@ class Celly::Leaders
   end
 
   def wins(season)
-    end_point = "/stats/leaders?leaderCategories=wins&season#{season}"
+    end_point = "/stats/leaders?leaderCategories=wins&season=#{season}"
     uri = URI("#{BASE_URL}#{end_point}")
     response = Net::HTTP.get_response(uri)
 
